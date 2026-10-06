@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 import fs from 'fs'
 
+const __dirname = import.meta.dirname
+
 function hotFilePlugin() {
   return {
     name: 'hot-file-plugin',
